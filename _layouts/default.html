@@ -25,7 +25,7 @@
           {% if site.show_downloads %}
             <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
             <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
-           
+            <li class="title">DOWNLOADS</li>
           {% endif %}
         </nav>
       </div><!-- end header -->
@@ -41,13 +41,7 @@
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
 
-        {{ content }}
-
-      </section>
-
-    </div>
-
-       <section class="main-content">
+        {{ <section class="main-content">
          <center><img src="images/usaedu.png" alt="hi" class="inline"/></center>
          <h3> About  Me </h3>
          <p> I'm currently a third year at UC Davis studying Applied Statistics 
@@ -66,7 +60,13 @@
            <li><a href="Sta141b">Sta141b</a>:Data and Web Technologies for Data Analysis</li>
            <li><a href="Sta141c">STA141C</a>:Big Data and High Performance Statistical Computing</li>
            <li><a href="https://noashadmon.github.io/sta141bfinal/">Stats 141B Project</a>:Project for my Stats 141B Class. My group used natural language processing techniques in order to analyze different news organizations sentiment towards the Trump Organization.</li>
-         </ul>
+         </ul> }}
+
+      </section>
+
+    </div>
+
+       
 
  
 
